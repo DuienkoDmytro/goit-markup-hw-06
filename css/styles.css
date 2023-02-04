@@ -672,7 +672,7 @@ min-height: 576px;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) scaleY(1);
-padding: 24px;
+padding: 72px 24px 24px;
 transition: opacity var(--transition-dur), visibility var(--transition-dur), transform var(--transition-dur);
 }
 
@@ -726,7 +726,6 @@ animation-name: changeBgColor;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 48px;
 }
 .modal-window-contact-form{
     margin-top: 34px;
@@ -856,6 +855,8 @@ textarea::placeholder{
   
 .modal-link{
 color: var(--modal-window-input-focus);
+margin-left: 4px;
+
 }
 
 .check-text span{
