@@ -761,9 +761,8 @@ animation-name: changeBgColor;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: --modal-label-text-color;
-    position: relative;
-    top: -4px;
+    color: var(--modal-label-text-color);
+
     
 }
 .modal-form-element{
@@ -781,6 +780,7 @@ animation-name: changeBgColor;
     letter-spacing: 0.04em;
     resize:none;
     transition: border-color var(--transition-dur);
+    margin-top: 4px;
     }
 .modal-comment:focus{
 border-color: var(--modal-window-input-focus);
@@ -802,6 +802,7 @@ textarea::placeholder{
 
 .input-container{
   position:relative;
+  margin-top: 4px;
 }
 .modal-svg-icon{
   position: absolute;
